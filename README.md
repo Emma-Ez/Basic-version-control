@@ -25,8 +25,9 @@ Both commands are used to retrieve changes from remote repository. However, ***g
 ## **Git rebase**
 
 This command is used to streamline a commit history by moving a sequence of commits into a new base commit.
-- **Command:** *git rebase <base branch>*
+- **Command:** *git rebase base branch*
 
 ## **Git Cherry-pick**
  Git cherry-pick is used to pluck specific cimmits from one branch and apply them to another  branch, just like picking cherries from a cherry tree'
- - **Command:** *git cherry-pick <commit-hash>*
+ - **Command:** *git cherry-pick commit-hash*
+ 
